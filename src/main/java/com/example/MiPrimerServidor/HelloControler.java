@@ -20,4 +20,5 @@ public class HelloControler {
     public String recibirMensaje(@RequestBody String mensaje){ // Se puede enviaar un objeto completo como parametro
         return "recibí el mensaje "+mensaje;
     }
+
 }
