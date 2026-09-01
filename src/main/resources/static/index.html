@@ -2,9 +2,156 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Mi Primer Servidor Web</title>
+    <title>Mi Primera Página Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio personal o profesional de un Ingeniero en Software">
+    <meta name="keywords" content="portafolio, ingeniero en software">
+    <meta name="author" content="Emily Lara">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" type="image/ico" href="icono.ico">
+
 </head>
 <body>
-    <h1> Hola Mundo! Estoy probando mi primer servidor web </h1>
+
+    <header>
+        <h1> Emily Lara </h1>
+
+        <p> Ingeniera en Software </p>
+
+        <!-- Navegadores (menú)-->
+        <nav>
+            <!-- Ancore, redireccion, links-->
+            <a href="index.html"> Home </a>
+            <a href="hobbies.html"> Mis Hobbies </a>
+        </nav>
+
+        <!-- Otro menú de navegación para utilizar dentro de este documento-->
+        <nav>
+            <a href="#sobre-mi"> Sobre mi</a>
+            <a href="#habilidades"> Habilidades </a>
+            <a href="#formacion"> Formación </a>
+            <a href="#proyectos"> Proyectos </a>
+            <a href="#contacto"> Contacto </a>
+        </nav>
+    </header>
+
+    <main>
+        <article> </article>
+
+        <section id="sobre-mi">
+            <h2> Sobre Mi </h2>
+            <p> Hola, soy <strong> Emily Lara</strong>, estudiante de ingeniería en software. <br>
+                Me interesa el desarrollo de software y la creación de soluciones que combinen <br>
+                programación, bases de datos y una buena organización de la arquitectura del sistema.
+            </p>
+
+            <img src="Image/Emy.jpeg" alt="Foto de Emily con camisa negra" width="240">
+        </section>
+
+        <section id="habilidades">
+
+            <h2> Habilidades </h2>
+            <h3> Lenguajes de programación </h3>
+            <p> Java, Python y JavaScript </p>
+            <h3> Bases de Datos </h3>
+            <p> MySQL y MongoDB. Diseño de bases de datos, modelos entidad-relación y persistencia de información. </p>
+            <h3> Programación y estructuras de datos </h3>
+            <p> Programación orientada a objetos, así como el manejo de diversas estructuras de datos. </p>
+            <h3> Desarrollo de aplicaciones </h3>
+            <p> Aplicaciones de escritorio de Java Swing, sistemas con persistencia de información y aplicaciones cliente-servidor. </p>
+            <h3> Otras habilidades </h3>
+            <p> Resolución de problemas, análisis de requerimientos, diseño de soluciones, organización de código, <br>
+                trabajo con estructuras de datos y aprendizaje autodidacta.
+            </p>
+
+        </section>
+
+        <section id="formacion">
+            <h2> Formación </h2>
+            <p> Actualmente curso la carrera de <strong> Ingeniería de Software</strong>, donde he desarrollado <br>
+                conocimientos de programación, estructuras de datos, bases de daatos, desarrollo web y arquitectura de software.
+            </p>
+            <p> Mi formación incluye:</p>
+            <ul>
+                <li>
+                    Programación
+                    <ol>
+                        <li> Programación Orientada a Objetos </li>
+                        <li> Java </li>
+                        <li> Python </li>
+                        <li> JavaScript</li>
+                    </ol>
+                </li>
+                <li>
+                    Estructura de Datos y Algoritmos
+                </li>
+                <li>
+                    Bases de Datos
+                    <ol>
+                        <li> Diseño de Bases de Datos</li>
+                        <li> Modelos Entidad-Relación</li>
+                        <li> SQL</li>
+                        <li> MySQL</li>
+                        <li> Consultas y Persistencias de información</li>
+                    </ol>
+                </li>
+                <li>
+                    Desarrollo web
+                    <ol>
+                        <li> HTML </li>
+                        <li> CSS </li>
+                        <li> JavaScript </li>
+                        <li> Fundamentos del funcionamiento de aplicaciones web y servidores</li>
+                    </ol>
+                </li>
+            </ul>
+        </section>
+
+        <section id="proyectos">
+            <h2> Proyectos </h2>
+            <ul>
+                <li>
+                    <h3> Sistema de Gestión Académica </h3>
+                    <p> Proyecto desarrollado en Java para administrar estudiantes, cursos e inscripciones. <br>
+                        Se utilizaron diferentes estructuras de datos para resolber las necesidades del sistema, <br>
+                        incluyendo árboles binarios, árboles AVL, listas, colas, pilas y arreglos dinámicos.<br><br>
+                        El proyecto permitió aplicar conceptos de programación orientada a objetos, estructuras de datos<br>
+                        y organización de la lógica de un sistema.
+                    </p>
+                </li>
+                <li>
+                    <h3> Servidor de Chat Cliente-Servidor </h3>
+                    <p>
+                        Proyecto desarrollado en Python utilizando comunicación mediante TCP y UDP.<br>
+                        El sistema permite la conexión de múltiples clientes, manejo de nombres de usuario, asignación de colores,<br>
+                        lista de usuarios y envío de mensajes. También se trabajó con validaciones y comunicación entre servidor y clientes.
+                    </p>
+                </li>
+            </ul>
+
+        </section>
+
+        <section id="contacto">
+            <h2> Contácto </h2>
+            <p> Si desea conocer más sobre mis proyectos, conocimientos o formación, puede ponerse en contacto conmigo <br>
+                a través de mis redes sociales:
+            </p>
+            <ul>
+                <li> Instagram: <a href="https://instagram.com" target="_blank">Emys.030 </a></li>
+                <li> Whatsapp: <a href="https://www.whatsapp.com/" target="_blank">6444082752</a> </li>
+            </ul>
+
+        </section>
+
+
+    </main>
+
+    <footer>
+        Sigueme en mis redes!
+        <div>
+            <a href="https://instagram.com" target="_blank"> Instagram: Emys.030 </a>
+        </div>
+        <p> &copy; 2026 derechos reservados Emily Lara</p>
+    </footer>
 </body>
 </html>
